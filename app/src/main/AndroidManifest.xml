@@ -13,18 +13,36 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Desborde"
         tools:targetApi="31">
+
+        <!-- Configuración de la clave de API de Google Maps -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAJRhw2nVXgkYBBpMjeVS9L-maCA97ZEmc" />
+
+        <activity
+            android:name=".mapa"
+            android:exported="false" />
+
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Desborde">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+
         <activity
             android:name=".splash"
             android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
-
 </manifest>

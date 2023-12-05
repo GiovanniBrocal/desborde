@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">desborde</string>
+
+    <string-array name="ubicaciones_array">
+            <item>Puente el Saque</item>
+            <item>Puente Ñuble</item>
+            <item>Puente el Ala</item>
+    </string-array>
+
+
 </resources>
