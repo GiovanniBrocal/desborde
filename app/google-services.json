@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "938476616078",
+    "firebase_url": "https://elcostillaresmio-d4301-default-rtdb.firebaseio.com",
+    "project_id": "elcostillaresmio-d4301",
+    "storage_bucket": "elcostillaresmio-d4301.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:938476616078:android:952f5777868390647a8cdf",
+        "android_client_info": {
+          "package_name": "cl.gbrocal.desborde"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYDAkY_4bQkZaJDzY7y6paZLJYBnO65gQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:938476616078:android:7d356b4bca1542bf7a8cdf",
+        "android_client_info": {
+          "package_name": "twin.developers.projectmqtt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYDAkY_4bQkZaJDzY7y6paZLJYBnO65gQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
